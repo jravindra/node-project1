@@ -15,8 +15,6 @@ Completed:
 
 ![Video Walkthrough](nodejs-project1.gif)
 
-Note: to embed the gif file, just check your gif file into your repo and update the name of the file above.
-
 ## Starting the Server
 
 ```bash
@@ -61,7 +59,7 @@ hello self
 Port 9001 will proxy to the echo server on port 9000.
 
 ```bash
-curl -v http://127.0.0.1:9001/asdf -d "hello proxy"
+curl -v http://127.0.0.1:9001/ -d "hello proxy"
 * Hostname was NOT found in DNS cache
 *   Trying 127.0.0.1...
 * Connected to 127.0.0.1 (127.0.0.1) port 9001 (#0)
